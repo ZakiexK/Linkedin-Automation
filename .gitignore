@@ -31,3 +31,7 @@ Automation/posts/*.jpeg
 # Logs and temporary files
 *.log
 *.tmp
+
+*.jpeg
+*.jpg
+*.png
