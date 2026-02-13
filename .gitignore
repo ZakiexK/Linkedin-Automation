@@ -1,0 +1,33 @@
+# Python virtual environment (contains installed packages - too big and unnecessary)
+.venv/
+venv/
+env/
+
+# Environment variables (CRITICAL - contains your LinkedIn tokens!)
+.env
+*.env
+
+# Python cache files (auto-generated, not needed in Git)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor files (personal settings)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files (Windows/Mac system files)
+Thumbs.db
+.DS_Store
+
+# Test images (you can add specific files you don't want to upload)
+Automation/posts/*.png
+Automation/posts/*.jpg
+Automation/posts/*.jpeg
+
+# Logs and temporary files
+*.log
+*.tmp
